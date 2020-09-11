@@ -2,8 +2,7 @@
  /@Title: Rekenmachine
  /@Author: Amer Zahirovic
  /@Group: IS109 SQUAD D
- /Description: Het programma vraagt de gebruiker om een operator(+, -,*, / of %) en
- /twee getallen en toontvervolgensde som, inclusief antwoord, op het scherm
+ /@Description: Het programma vraagt de gebruiker om een operator(+, -,*, / of %)
  */
 
 import java.util.Scanner;

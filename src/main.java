@@ -17,8 +17,6 @@ public class main {
 
     static void PrintCalculation(char operator, double num1, double num2)
     {
-        //Defines / + - *
-
         //Calculates
         if(operator == PLUS)
         {
@@ -98,9 +96,9 @@ public class main {
             {
                 System.out.print("Kies een geldige operator (S = stoppen): ");
                 String newC  = input.next().toLowerCase();
-                char firstNewChar = firstChar = newC.charAt(FIRST_POSITION);
+                firstChar = newC.charAt(FIRST_POSITION);
                 System.out.println();
-                System.out.println("De karakter die u heeft ingevuld: " + firstNewChar);
+                System.out.println("De karakter die u heeft ingevuld: " + firstChar);
             }
 
             //Enter num1 and num2
